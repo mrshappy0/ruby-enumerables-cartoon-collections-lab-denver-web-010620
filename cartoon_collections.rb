@@ -10,7 +10,7 @@ end
 
 def long_planeteer_calls(array)
   # Your code here
-  b = array.find {|n| n.size >= 4}
+  b = array.find {|n| n.size > 4}
   if b != nil 
      p true
    end
