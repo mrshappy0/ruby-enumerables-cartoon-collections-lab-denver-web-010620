@@ -10,7 +10,8 @@ end
 
 def long_planeteer_calls(array)
   # Your code here
-  array.find {|n| n.size >= 4}
+  b = array.find {|n| n.size >= 4}
+  
 end
 
 def find_the_cheese# code an argument here
